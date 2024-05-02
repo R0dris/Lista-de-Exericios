@@ -1,0 +1,7 @@
+== -> verifica se um valor e igual ao outro
+=== -> verifica se o valor e o tipo dos itens sao iguais
+
+Adição -> num1 + num2
+Subtraçaõ -> num1 - nums2
+Multiplicação -> num1 * num2
+Divisão -> num1 / num2
