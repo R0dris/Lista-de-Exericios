@@ -6,7 +6,7 @@ Considere que 1 representa segunda-feira, 2 representa terça-feira e assim por 
 
 let dia = parseInt  (prompt ("Escolha um dia da semana"))
 
- if (dia == 1 )
+if (dia == 1 )
 {
     console.log ("Segunda-Feira")
 }
