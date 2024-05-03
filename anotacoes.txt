@@ -5,3 +5,20 @@ Adição -> num1 + num2
 Subtraçaõ -> num1 - nums2
 Multiplicação -> num1 * num2
 Divisão -> num1 / num2
+
+
+// Pontos
+let pontos = 100
+let bonus = parseFloat (prompt ("Quantos pontos você deseja somar"))
+//Concatenação
+console.log (pontos + bonus)
+
+
+// Notas
+let nota = parseFloat ( prompt("Digite a nota do aluno: "))
+let bonus = parseFloat (prompt ("Quantos pontos você deseja somar"))
+let pontuacaoTotal = nota + bonus
+console.log ("A nota é " + pontuacaoTotal)
+
+
+
