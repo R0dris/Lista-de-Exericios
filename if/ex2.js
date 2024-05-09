@@ -49,7 +49,7 @@ if (dia ==  5 )
 }
 else
 {
-   console.clear
+   console.clear()
 }
 
 if (dia ==  6 )
@@ -78,3 +78,4 @@ document.addEventListener('keypress', function(event) {
       console.clear()
     }
 });
+   console.clear
