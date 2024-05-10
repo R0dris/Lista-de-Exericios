@@ -149,25 +149,32 @@ while (opcao > "0")
     switch (opcao) {
     case "1":
          nota ()
+         opcao = prompt("Escolha um exercício: \n1: Cálculo de média com 4 notas \n2: Calcule sua idade com base no seu ano de nascimento \n3: Descubra se um número é par \n4: Qual o dia da semana? \n5: Contagem regressiva \n6: Calculadora de desconto em compra \n0 para fechar o menu \n Para reiniciar o sitema, digite 9")
         break;
     case "2":
         idade()
+        opcao = prompt("Escolha um exercício: \n1: Cálculo de média com 4 notas \n2: Calcule sua idade com base no seu ano de nascimento \n3: Descubra se um número é par \n4: Qual o dia da semana? \n5: Contagem regressiva \n6: Calculadora de desconto em compra \n0 para fechar o menu \n Para reiniciar o sitema, digite 9")
         break;
     case "3":
         numeroPar()
+        opcao = prompt("Escolha um exercício: \n1: Cálculo de média com 4 notas \n2: Calcule sua idade com base no seu ano de nascimento \n3: Descubra se um número é par \n4: Qual o dia da semana? \n5: Contagem regressiva \n6: Calculadora de desconto em compra \n0 para fechar o menu \n Para reiniciar o sitema, digite 9")
         break;
     case "4":
         dia()
+        opcao = prompt("Escolha um exercício: \n1: Cálculo de média com 4 notas \n2: Calcule sua idade com base no seu ano de nascimento \n3: Descubra se um número é par \n4: Qual o dia da semana? \n5: Contagem regressiva \n6: Calculadora de desconto em compra \n0 para fechar o menu \n Para reiniciar o sitema, digite 9")
         break;
     case "5":
         contagem()
+        opcao = prompt("Escolha um exercício: \n1: Cálculo de média com 4 notas \n2: Calcule sua idade com base no seu ano de nascimento \n3: Descubra se um número é par \n4: Qual o dia da semana? \n5: Contagem regressiva \n6: Calculadora de desconto em compra \n0 para fechar o menu \n Para reiniciar o sitema, digite 9")
         break;
     case "6":
         compra()
+        opcao = prompt("Escolha um exercício: \n1: Cálculo de média com 4 notas \n2: Calcule sua idade com base no seu ano de nascimento \n3: Descubra se um número é par \n4: Qual o dia da semana? \n5: Contagem regressiva \n6: Calculadora de desconto em compra \n0 para fechar o menu \n Para reiniciar o sitema, digite 9")
         break;
     case "9":
         opcao = prompt("Escolha um exercício: \n1: Cálculo de média com 4 notas \n2: Calcule sua idade com base no seu ano de nascimento \n3: Descubra se um número é par \n4: Qual o dia da semana? \n5: Contagem regressiva \n6: Calculadora de desconto em compra \n0 para fechar o menu \n Para reiniciar o sitema, digite 9")
-    default:
+    default: 
+        
         break;
     }
 
